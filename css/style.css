@@ -1,0 +1,70 @@
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.gallery li {
+  margin: 10px;
+}
+
+.tmp {
+  padding: 10px;
+  /* width: 90%;
+  height: 500px; */
+  border: solid 1px grey;
+  border-radius: 5px;
+  background-color: rgba(133, 124, 124, 0.336);
+}
+
+.sum {
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.count-kg {
+  width: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  color: red;
+}
+
+form {
+  display: flex;
+}
+
+.yel-color {
+  color: yellow;
+}
+
+.red-color {
+  color: red;
+}
+
+.green-color {
+  color: green;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.red {
+  border: 3px solid red;
+  border-radius: 3px;
+}
+
+.green {
+  border: 3px solid green;
+  border-radius: 3px;
+}
